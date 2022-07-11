@@ -1,0 +1,46 @@
+
+header{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 0px 10px 1px #AAA;
+  margin-bottom: 40px;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 5px;
+  font-family: var(--ff);
+  font-size: 1rem;
+  color: var(--clr-black);
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: var(--clr-black);
+  text-decoration: none;
+}
+
+a:hover, a.current-page{
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+li{
+  width: 110px;
+  text-align: center;
+}
+
+.lang-choice{
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
+}
